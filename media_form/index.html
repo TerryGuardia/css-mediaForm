@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EXO CSS Media queries - Formulaire de colonie de vacances</title>
+</head>
+
+<body>
+    <main>
+        <h1>Questionnaire de colonie de vacance</h1>
+        <form action="#">
+            <div class="flex-col my">
+                <label for="name">Votre nom</label>
+                <input type="text" id="name" class="sizing">
+            </div>
+            <div class="flex-col my">
+                <label for="ville">Votre ville d'origine</label>
+                <input type="text" id="ville" class="sizing">
+            </div>
+            <div class="my flex-col" id="sport">Choisir un sport:
+                <div>
+                    <input type="radio" id="basket">
+                    <label for="basket"><b>Basket</b></label>
+                </div>
+
+                <div>
+                    <input type="radio" id="rugby">
+                    <label for="rugby"><b>Rugby</b></label>
+                </div>
+
+                <div>
+                    <input type="radio" id="volley">
+                    <label for="volley"><b>Volley</b></label>
+                </div>
+            </div>
+            <div class="my flex-col" id="activity">Choisir une activité:
+                <div>
+                    <input type="checkbox" id="cinema">
+                    <label for="cinema"><b>Cinéma</b></label>
+                </div>
+                <div>
+                    <input type="checkbox" id="peche">
+                    <label for="peche"><b>Pêche</b></label>
+                </div>
+                <div>
+                    <input type="checkbox" id="maquette">
+                    <label for="maquette"><b>Maquette</b></label>
+                </div>
+                <div>
+                    <input type="checkbox" id="theatre">
+                    <label for="theatre"><b>Théatre</b></label>
+                </div>
+            </div>
+            <div class="my flex-col">
+                <label for="list">Couleur d'équipe</label>
+                <select name="list" id="list">
+                    <option>--Veuillez choisir une option--</option>
+                    <option>red</option>
+                    <option>green</option>
+                    <option>blue</option>
+                    <option>yellow</option>
+                    <option>purple</option>
+                </select>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
